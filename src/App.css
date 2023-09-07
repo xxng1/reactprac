@@ -7,6 +7,21 @@
   pointer-events: none;
 }
 
+td{
+  width: 100px;
+}
+
+.qwe-qwe-qwe{
+  width: 30px;
+}
+
+.asd-asd-asd{
+  width: 200px;
+}
+
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

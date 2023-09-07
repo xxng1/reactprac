@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Garage from './garage';
+import Football from './football';
+import Goal from './goal';
+import List from './list';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Reacddt
-        </a>
-      </header>
+    <div>
+      {/* <h2>Gachon, hello World!</h2>
+      <Garage />
+      <Football />
+      <Goal  isGoal={true}/> */}
+      <List />
     </div>
   );
 }
