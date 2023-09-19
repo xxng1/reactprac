@@ -3,9 +3,9 @@ import Comment from "./Comment";
 
 function CommentList() {
     const listItems = [
-      {id:1 , name:"Kimgacheon", comment:"zxc"},
-      {id:2, name:"CaCaOj", comment:"qwe"},
-      {id:3, name:"GaSoon", comment:"asd"}
+      {id:1 , name:"Kimgacheon", comment:"안녕하세요~"},
+      {id:2, name:"CaCaOj", comment:"ㅎㅇㅎㅇ"},
+      {id:3, name:"GaSoon", comment:"ㅇㄴㅎㅅㅇ~~~"}
       ]
     return (
     <div>

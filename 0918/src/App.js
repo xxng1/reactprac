@@ -4,8 +4,10 @@ import Comment from './Comment';
 
 function App() {
   return (
-    // <Comment name="KimGachon" comment="asd" />
+    // <Comment name="test" comment="ff" />
     <CommentList/>
+
+    
   ); 
 }
 
