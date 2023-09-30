@@ -10,6 +10,7 @@ import Calculator from './Calculator';
 function App() {
   return (
     <>
+    <h1>GCU Calculator</h1>
     {/* <FavoriteColor/>
     <Carex/>
     <Counter/>

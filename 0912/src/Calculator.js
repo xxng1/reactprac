@@ -42,16 +42,16 @@ function Calculator() {
         onChange={(r) => setInputValu(r.target.value)}
       />
       <hr></hr>
-      <button onClick={handleAddition}>+</button>
+      <button onClick={handleAddition}>Add</button>
       {result} {/* 연산 결과를 표시 */}
-
-      <button onClick={handleAddition2}>-</button>
+      &nbsp;
+      <button onClick={handleAddition2}>Sub</button>
       {result2} {/* 연산 결과를 표시 */}
-
-      <button onClick={handleAddition3}>*</button>
+      &nbsp;
+      <button onClick={handleAddition3}>Mul</button>
       {result3} {/* 연산 결과를 표시 */}
-
-      <button onClick={handleAddition4}>/</button>
+      &nbsp;
+      <button onClick={handleAddition4}>Div</button>
       {result4} {/* 연산 결과를 표시 */}
     </>
   );
